@@ -1,0 +1,2 @@
+youtube-transcript-api==1.2.4
+langchain-community==0.4.2

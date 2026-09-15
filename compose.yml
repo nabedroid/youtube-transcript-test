@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: app
+    environment:
+      - PYTHONPYCACHEPREFIX=/tmp/pycache
+    volumes:
+      - ./app/src:/app/src
+      - ./app/output:/app/output
